@@ -4,12 +4,12 @@ class Rectangle:
     def __init__(dim,length,width): 
         dim.length = length
         dim.width = width
-    def AreOfTheRectangle(lenght,width):
-        return lenght*width
+    def AreOfTheRectangle(dim):
+        return dim.lenght*dim.width
 
 
 RectangleA = Rectangle(10,2)
-print("The area of the rectangle is",Rectangle.AreOfTheRectangle(10,2))
+print("The area of the rectangle is",Rectangle.AreOfTheRectangle(RectangleA))
 
 
 class Vehicle:
@@ -22,7 +22,7 @@ class _Vehicle:
     #_Vehicle class without any variables and methods.
     pass
 
-class child(Vehicle):
+class Bus(Vehicle):
     #child class Bus that will inherit all of the variables and methods 
     #of the Vehicle class
     pass
