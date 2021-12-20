@@ -4,12 +4,17 @@ class Rectangle:
     def __init__(dim,length,width): 
         dim.length = length
         dim.width = width
-    def AreOfTheRectangle(lenght,width):
-        return lenght*width
+    def AreOfTheRectangle(Rectangle):
+        return Rectangle.length*Rectangle.width
 
 
-RectangleA = Rectangle(10,2)
-print("The area of the rectangle is",Rectangle.AreOfTheRectangle(10,2))
+
+print ("\n\tCalculing the area of a rectangle :") 
+length = int(input("-->Please Enter the length: "))
+width = int(input("-->Please Enter the width: "))
+RectangleA = Rectangle(length,width)
+print("The area of the rectangle is",Rectangle.AreOfTheRectangle(RectangleA))
+
 
 
 class Vehicle:
