@@ -42,5 +42,5 @@ column = int(input("-->Please choice a column from 1 to %d  : "%(shape)))
 print("\tThe column chocen is",matrix.T[column-1])
 
 
-print("-->The norm 1 of the vector is : %d"%(norm(matrix.T[column-1],1)))
-print("-->The norm 2 of the vector is : %f"%(norm(matrix.T[column-1])))
+print("--> The norm 1 of the vector is : %d"%(norm(matrix.T[column-1],1)))
+print("--> The norm 2 of the vector is : %f"%(norm(matrix.T[column-1])))
