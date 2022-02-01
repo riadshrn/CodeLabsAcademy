@@ -1,8 +1,22 @@
 import numpy as np
 from numpy.linalg import norm
+import cv2
+from matplotlib import pyplot as plt
 from os import system,name
+
+
+img = cv2.imread('digiTech.jpg')
+print(img.shape)
+
+plt.imshow(cv2.cvtColor(img, 3))
+plt.show()
+
+
+
 shape = int(input("-->Please Enter the shape of your matrix: "))
 matrix = np.zeros((shape,shape))
+
+
 
 for i in range (shape):
         for j in range (shape):
