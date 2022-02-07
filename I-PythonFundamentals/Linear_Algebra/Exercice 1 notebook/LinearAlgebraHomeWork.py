@@ -5,11 +5,11 @@ from matplotlib import pyplot as plt
 from os import system,name
 
 
-img = cv2.imread('digiTech.jpg')
-print(img.shape)
+# img = cv2.imread('digiTech.jpg')
+# print(img.shape)
 
-plt.imshow(cv2.cvtColor(img, 3))
-plt.show()
+# plt.imshow(cv2.cvtColor(img, 3))
+# plt.show()
 
 
 
